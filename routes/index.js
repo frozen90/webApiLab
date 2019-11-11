@@ -18,7 +18,7 @@ res.setHeader('Content-Type', 'application/json');
 
 //res.end(JSON.stringify({message: 'This is the home page'}));
 
-res.json({content: 'This is the default route.'});
+res.json({content: 'Hello Dear, This is the default route.'});
 
 });
 

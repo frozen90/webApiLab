@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 
 // Define Host name and TCP Port for the server
 
-const HOST = '0.0.0.0';
+const HOST = '127.0.0.1';
 
 const PORT = 8080;
 
@@ -39,6 +39,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 // The home page
 
 app.use('/', require('./routes/index'));
+app.use('/product', require('./routes/product'));
 
 // catch 404 and forward to error handler
 

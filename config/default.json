@@ -1,0 +1,37 @@
+{
+
+    "connection":{
+    
+    "user" : "webUser",
+    
+    "password": "Password1",
+    
+    "server" : "sswdwebapi.database.windows.net",
+    
+    "database" : "webapi_db",
+    
+    "parseJSON": true,
+    
+    "options":
+    
+    {
+    
+    "encrypt" : true
+    
+    },
+    
+    "pool":
+    
+    {
+    
+    "min": 2,
+    
+    "max": 4,
+    
+    "idleTimeoutMillis": 30000
+    
+    }
+    
+    }
+    
+}    
