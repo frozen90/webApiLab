@@ -25,7 +25,7 @@
     "express4-tedious": "^0.3.0",
     "mssql": "^6.0.0",
     "tedious": "^6.6.0",
-    "validator": "^12.0.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
